@@ -1,0 +1,13 @@
+accelerate>=0.34.0
+datasets>=2.20.0
+huggingface_hub>=0.24.0
+jsonlines>=4.0.0
+langdetect>=1.0.9
+openai>=1.40.0
+regex>=2024.5.15
+requests>=2.32.0
+torch>=2.1.0
+tiktoken>=0.7.0
+transformers>=4.44.0
+tqdm>=4.66.0
+wandb>=0.17.0

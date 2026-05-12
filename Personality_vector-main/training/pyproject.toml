@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "personality-llm-pipeline"
+version = "0.1.0"
+description = "Config-driven full fine-tuning pipeline for personality-conditioned chat models."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "accelerate>=0.34.0",
+  "datasets>=2.20.0",
+  "huggingface_hub>=0.24.0",
+  "jsonlines>=4.0.0",
+  "langdetect>=1.0.9",
+  "openai>=1.40.0",
+  "regex>=2024.5.15",
+  "requests>=2.32.0",
+  "torch>=2.1.0",
+  "tiktoken>=0.7.0",
+  "transformers>=4.44.0",
+  "tqdm>=4.66.0",
+  "wandb>=0.17.0"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]
+
+[project.scripts]
+personality-train = "personality_llm_pipeline.cli:main"
+personality-tests = "personality_llm_pipeline.personality_tests_module:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+personality_llm_pipeline = ["assets/questionnaires/*.json", "config.json"]
