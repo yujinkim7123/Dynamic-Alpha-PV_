@@ -1,0 +1,6 @@
+{
+  "openai_apikey": "",
+  "proxy": null,
+  "openai_apibase": "https://api.openai.com/v1",
+  "gemini_apikey": ""
+}
