@@ -16,7 +16,7 @@ except ImportError:
 # [설정] Llama 모델 및 API 키 설정
 # =============================================================================
 # 예: "meta-llama/Llama-3.1-8B-Instruct" 또는 로컬 절대 경로
-MODEL_PATH = "/" 
+MODEL_PATH = "" 
 
 # OpenAI API 키 직접 입력
 MY_OPENAI_KEY = "" 
