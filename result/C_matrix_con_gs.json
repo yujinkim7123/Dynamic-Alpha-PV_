@@ -1,0 +1,77 @@
+{
+  "model": "llama_ortho_oder",
+  "C": [
+    [
+      0.32,
+      -1.3112,
+      -0.1626,
+      -0.2108,
+      0.15
+    ],
+    [
+      -0.35,
+      -0.2666,
+      -0.175,
+      -0.3998,
+      0.05
+    ],
+    [
+      0.33,
+      -1.0222,
+      1.7126,
+      0.3226,
+      -0.575
+    ],
+    [
+      -0.68,
+      -1.0666,
+      -0.625,
+      -0.111,
+      -0.275
+    ],
+    [
+      -0.53,
+      -2.556,
+      -0.875,
+      -1.4218,
+      2.1124
+    ]
+  ],
+  "raw": {
+    "OPN": {
+      "openness": 0.32,
+      "conscientiousness": -1.3112,
+      "extraversion": -0.1626,
+      "agreeableness": -0.2108,
+      "neuroticism": 0.15
+    },
+    "CON": {
+      "openness": -0.35,
+      "conscientiousness": -0.2666,
+      "extraversion": -0.175,
+      "agreeableness": -0.3998,
+      "neuroticism": 0.05
+    },
+    "EXT": {
+      "openness": 0.33,
+      "conscientiousness": -1.0222,
+      "extraversion": 1.7126,
+      "agreeableness": 0.3226,
+      "neuroticism": -0.575
+    },
+    "AGR": {
+      "openness": -0.68,
+      "conscientiousness": -1.0666,
+      "extraversion": -0.625,
+      "agreeableness": -0.111,
+      "neuroticism": -0.275
+    },
+    "NEU": {
+      "openness": -0.53,
+      "conscientiousness": -2.556,
+      "extraversion": -0.875,
+      "agreeableness": -1.4218,
+      "neuroticism": 2.1124
+    }
+  }
+}

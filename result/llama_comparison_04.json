@@ -1,0 +1,127 @@
+{
+  "OPN": {
+    "naive": {
+      "openness": -0.1,
+      "conscientiousness": 0.222,
+      "extraversion": 0.075,
+      "agreeableness": 0.1556,
+      "neuroticism": 0.05
+    },
+    "caas": {
+      "openness": -1.7,
+      "conscientiousness": 0.889,
+      "extraversion": -1.25,
+      "agreeableness": -0.667,
+      "neuroticism": 1.125
+    },
+    "alpha_star": {
+      "OPN": 0.4,
+      "CON": -0.109,
+      "EXT": -0.4,
+      "AGR": 0.4,
+      "NEU": 0.4
+    },
+    "selectivity_naive": 0.1659,
+    "selectivity_caas": 0.3019
+  },
+  "CON": {
+    "naive": {
+      "openness": -0.76,
+      "conscientiousness": 1.6224,
+      "extraversion": -0.925,
+      "agreeableness": 0.111,
+      "neuroticism": -0.125
+    },
+    "caas": {
+      "openness": -1.3,
+      "conscientiousness": 1.111,
+      "extraversion": -1.125,
+      "agreeableness": -1.389,
+      "neuroticism": 0.5
+    },
+    "alpha_star": {
+      "OPN": 0.4,
+      "CON": 0.4,
+      "EXT": -0.3021,
+      "AGR": -0.4,
+      "NEU": 0.4
+    },
+    "selectivity_naive": 0.4579,
+    "selectivity_caas": 0.2048
+  },
+  "EXT": {
+    "naive": {
+      "openness": -0.08,
+      "conscientiousness": 0.8002,
+      "extraversion": 0.95,
+      "agreeableness": 0.4894,
+      "neuroticism": -0.125
+    },
+    "caas": {
+      "openness": -1.5,
+      "conscientiousness": 0.556,
+      "extraversion": 0.0,
+      "agreeableness": -0.667,
+      "neuroticism": -0.5
+    },
+    "alpha_star": {
+      "OPN": -0.4,
+      "CON": 0.3271,
+      "EXT": 0.4,
+      "AGR": -0.4,
+      "NEU": -0.4
+    },
+    "selectivity_naive": 0.3886,
+    "selectivity_caas": 0.0
+  },
+  "AGR": {
+    "naive": {
+      "openness": -0.68,
+      "conscientiousness": 0.9334,
+      "extraversion": -0.55,
+      "agreeableness": 0.3334,
+      "neuroticism": -0.25
+    },
+    "caas": {
+      "openness": -2.0,
+      "conscientiousness": 0.778,
+      "extraversion": -0.625,
+      "agreeableness": -0.333,
+      "neuroticism": -0.5
+    },
+    "alpha_star": {
+      "OPN": -0.4,
+      "CON": -0.4,
+      "EXT": 0.0768,
+      "AGR": 0.4,
+      "NEU": -0.4
+    },
+    "selectivity_naive": 0.1214,
+    "selectivity_caas": 0.0786
+  },
+  "NEU": {
+    "naive": {
+      "openness": -1.78,
+      "conscientiousness": -0.6222,
+      "extraversion": -1.65,
+      "agreeableness": -1.6,
+      "neuroticism": 1.5
+    },
+    "caas": {
+      "openness": -1.9,
+      "conscientiousness": 0.333,
+      "extraversion": -1.25,
+      "agreeableness": -1.111,
+      "neuroticism": 0.25
+    },
+    "alpha_star": {
+      "OPN": -0.3786,
+      "CON": -0.0566,
+      "EXT": 0.1673,
+      "AGR": -0.2716,
+      "NEU": 0.0883
+    },
+    "selectivity_naive": 0.2097,
+    "selectivity_caas": 0.0516
+  }
+}

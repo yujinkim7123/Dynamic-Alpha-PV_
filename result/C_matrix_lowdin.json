@@ -1,0 +1,77 @@
+{
+  "model": "llama_ortho_lowdin",
+  "C": [
+    [
+      0.46,
+      -0.8108,
+      -0.25,
+      0.1558,
+      -0.05
+    ],
+    [
+      -0.02,
+      0.1888,
+      -0.5374,
+      0.0,
+      0.05
+    ],
+    [
+      0.4,
+      -0.2886,
+      0.5624,
+      0.1,
+      -0.35
+    ],
+    [
+      0.1,
+      -0.1554,
+      -0.55,
+      0.2444,
+      -0.2
+    ],
+    [
+      -0.08,
+      -0.9666,
+      -0.9124,
+      -0.322,
+      1.0624
+    ]
+  ],
+  "raw": {
+    "OPN": {
+      "openness": 0.46,
+      "conscientiousness": -0.8108,
+      "extraversion": -0.25,
+      "agreeableness": 0.1558,
+      "neuroticism": -0.05
+    },
+    "CON": {
+      "openness": -0.02,
+      "conscientiousness": 0.1888,
+      "extraversion": -0.5374,
+      "agreeableness": 0.0,
+      "neuroticism": 0.05
+    },
+    "EXT": {
+      "openness": 0.4,
+      "conscientiousness": -0.2886,
+      "extraversion": 0.5624,
+      "agreeableness": 0.1,
+      "neuroticism": -0.35
+    },
+    "AGR": {
+      "openness": 0.1,
+      "conscientiousness": -0.1554,
+      "extraversion": -0.55,
+      "agreeableness": 0.2444,
+      "neuroticism": -0.2
+    },
+    "NEU": {
+      "openness": -0.08,
+      "conscientiousness": -0.9666,
+      "extraversion": -0.9124,
+      "agreeableness": -0.322,
+      "neuroticism": 1.0624
+    }
+  }
+}

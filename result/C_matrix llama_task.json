@@ -1,0 +1,77 @@
+{
+  "model": "llama",
+  "C": [
+    [
+      -0.1,
+      0.222,
+      0.075,
+      0.1556,
+      0.05
+    ],
+    [
+      -0.76,
+      1.6224,
+      -0.925,
+      0.111,
+      -0.125
+    ],
+    [
+      -0.08,
+      0.8002,
+      0.95,
+      0.4894,
+      -0.125
+    ],
+    [
+      -0.68,
+      0.9334,
+      -0.55,
+      0.3334,
+      -0.25
+    ],
+    [
+      -1.78,
+      -0.6222,
+      -1.65,
+      -1.6,
+      1.5
+    ]
+  ],
+  "raw": {
+    "OPN": {
+      "openness": -0.1,
+      "conscientiousness": 0.222,
+      "extraversion": 0.075,
+      "agreeableness": 0.1556,
+      "neuroticism": 0.05
+    },
+    "CON": {
+      "openness": -0.76,
+      "conscientiousness": 1.6224,
+      "extraversion": -0.925,
+      "agreeableness": 0.111,
+      "neuroticism": -0.125
+    },
+    "EXT": {
+      "openness": -0.08,
+      "conscientiousness": 0.8002,
+      "extraversion": 0.95,
+      "agreeableness": 0.4894,
+      "neuroticism": -0.125
+    },
+    "AGR": {
+      "openness": -0.68,
+      "conscientiousness": 0.9334,
+      "extraversion": -0.55,
+      "agreeableness": 0.3334,
+      "neuroticism": -0.25
+    },
+    "NEU": {
+      "openness": -1.78,
+      "conscientiousness": -0.6222,
+      "extraversion": -1.65,
+      "agreeableness": -1.6,
+      "neuroticism": 1.5
+    }
+  }
+}

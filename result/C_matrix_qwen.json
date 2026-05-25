@@ -1,0 +1,77 @@
+{
+  "model": "qwen",
+  "C": [
+    [
+      0.66,
+      0.1332,
+      0.85,
+      0.0888,
+      -0.05
+    ],
+    [
+      -0.86,
+      0.8,
+      -0.425,
+      0.2886,
+      -0.125
+    ],
+    [
+      0.62,
+      0.3552,
+      1.75,
+      0.7108,
+      -0.325
+    ],
+    [
+      -0.2,
+      0.222,
+      -0.225,
+      0.6218,
+      -0.225
+    ],
+    [
+      -1.5,
+      -1.4,
+      -0.675,
+      -1.1112,
+      1.525
+    ]
+  ],
+  "raw": {
+    "OPN": {
+      "openness": 0.66,
+      "conscientiousness": 0.1332,
+      "extraversion": 0.85,
+      "agreeableness": 0.0888,
+      "neuroticism": -0.05
+    },
+    "CON": {
+      "openness": -0.86,
+      "conscientiousness": 0.8,
+      "extraversion": -0.425,
+      "agreeableness": 0.2886,
+      "neuroticism": -0.125
+    },
+    "EXT": {
+      "openness": 0.62,
+      "conscientiousness": 0.3552,
+      "extraversion": 1.75,
+      "agreeableness": 0.7108,
+      "neuroticism": -0.325
+    },
+    "AGR": {
+      "openness": -0.2,
+      "conscientiousness": 0.222,
+      "extraversion": -0.225,
+      "agreeableness": 0.6218,
+      "neuroticism": -0.225
+    },
+    "NEU": {
+      "openness": -1.5,
+      "conscientiousness": -1.4,
+      "extraversion": -0.675,
+      "agreeableness": -1.1112,
+      "neuroticism": 1.525
+    }
+  }
+}

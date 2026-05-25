@@ -1,0 +1,77 @@
+{
+  "model": "llama_ortho_awd",
+  "C": [
+    [
+      0.24,
+      -0.711,
+      0.5,
+      -0.244,
+      0.175
+    ],
+    [
+      -0.27,
+      0.3002,
+      -0.1,
+      -0.1776,
+      0.325
+    ],
+    [
+      0.22,
+      -0.3774,
+      1.65,
+      -0.0222,
+      -0.225
+    ],
+    [
+      -0.24,
+      -0.1664,
+      -0.0624,
+      0.1114,
+      0.025
+    ],
+    [
+      -0.82,
+      -1.8222,
+      -0.7,
+      -1.1888,
+      2.125
+    ]
+  ],
+  "raw": {
+    "OPN": {
+      "openness": 0.24,
+      "conscientiousness": -0.711,
+      "extraversion": 0.5,
+      "agreeableness": -0.244,
+      "neuroticism": 0.175
+    },
+    "CON": {
+      "openness": -0.27,
+      "conscientiousness": 0.3002,
+      "extraversion": -0.1,
+      "agreeableness": -0.1776,
+      "neuroticism": 0.325
+    },
+    "EXT": {
+      "openness": 0.22,
+      "conscientiousness": -0.3774,
+      "extraversion": 1.65,
+      "agreeableness": -0.0222,
+      "neuroticism": -0.225
+    },
+    "AGR": {
+      "openness": -0.24,
+      "conscientiousness": -0.1664,
+      "extraversion": -0.0624,
+      "agreeableness": 0.1114,
+      "neuroticism": 0.025
+    },
+    "NEU": {
+      "openness": -0.82,
+      "conscientiousness": -1.8222,
+      "extraversion": -0.7,
+      "agreeableness": -1.1888,
+      "neuroticism": 2.125
+    }
+  }
+}
