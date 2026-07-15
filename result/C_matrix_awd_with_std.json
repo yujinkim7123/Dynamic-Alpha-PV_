@@ -1,0 +1,420 @@
+{
+  "model": "llama_ortho_awd",
+  "method": "AWD (Adaptive Weight Disentanglement)",
+  "n_repeat": 5,
+  "note": "Recovered per-run raw BFI scores from notebook execution logs. delta = raw_BFI - base_BFI (base is constant across runs for a given phi/model, so std(raw) == std(delta)).",
+  "C_matrix_mean": [
+    [
+      0.24,
+      -0.711,
+      0.5,
+      -0.244,
+      0.175
+    ],
+    [
+      -0.27,
+      0.3002,
+      -0.1,
+      -0.1776,
+      0.325
+    ],
+    [
+      0.22,
+      -0.3774,
+      1.65,
+      -0.0222,
+      -0.225
+    ],
+    [
+      -0.24,
+      -0.1664,
+      -0.0624,
+      0.1114,
+      0.025
+    ],
+    [
+      -0.82,
+      -1.8222,
+      -0.7,
+      -1.1888,
+      2.125
+    ]
+  ],
+  "per_phi": {
+    "OPN": {
+      "n_runs": 5,
+      "per_bfi_dim": {
+        "openness": {
+          "raw_runs": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            4.9
+          ],
+          "mean_raw_bfi": 4.98,
+          "delta_mean_from_C_matrix": 0.24,
+          "implied_base_bfi": 4.74,
+          "std": 0.0447,
+          "ci95_half_width": 0.0392
+        },
+        "conscientiousness": {
+          "raw_runs": [
+            3.444,
+            3.0,
+            2.667,
+            2.889,
+            3.111
+          ],
+          "mean_raw_bfi": 3.0222,
+          "delta_mean_from_C_matrix": -0.711,
+          "implied_base_bfi": 3.7332,
+          "std": 0.2873,
+          "ci95_half_width": 0.2518
+        },
+        "extraversion": {
+          "raw_runs": [
+            3.25,
+            3.625,
+            4.25,
+            3.5,
+            3.75
+          ],
+          "mean_raw_bfi": 3.675,
+          "delta_mean_from_C_matrix": 0.5,
+          "implied_base_bfi": 3.175,
+          "std": 0.3708,
+          "ci95_half_width": 0.325
+        },
+        "agreeableness": {
+          "raw_runs": [
+            3.556,
+            4.111,
+            4.222,
+            4.278,
+            4.111
+          ],
+          "mean_raw_bfi": 4.0556,
+          "delta_mean_from_C_matrix": -0.244,
+          "implied_base_bfi": 4.2996,
+          "std": 0.2885,
+          "ci95_half_width": 0.2529
+        },
+        "neuroticism": {
+          "raw_runs": [
+            2.125,
+            2.0,
+            2.188,
+            2.25,
+            2.625
+          ],
+          "mean_raw_bfi": 2.2376,
+          "delta_mean_from_C_matrix": 0.175,
+          "implied_base_bfi": 2.0626,
+          "std": 0.2355,
+          "ci95_half_width": 0.2064
+        }
+      }
+    },
+    "CON": {
+      "n_runs": 5,
+      "per_bfi_dim": {
+        "openness": {
+          "raw_runs": [
+            4.55,
+            4.2,
+            4.3,
+            3.8,
+            4.05
+          ],
+          "mean_raw_bfi": 4.18,
+          "delta_mean_from_C_matrix": -0.27,
+          "implied_base_bfi": 4.45,
+          "std": 0.2797,
+          "ci95_half_width": 0.2452
+        },
+        "conscientiousness": {
+          "raw_runs": [
+            4.444,
+            4.333,
+            4.667,
+            4.778,
+            4.444
+          ],
+          "mean_raw_bfi": 4.5332,
+          "delta_mean_from_C_matrix": 0.3002,
+          "implied_base_bfi": 4.233,
+          "std": 0.1829,
+          "ci95_half_width": 0.1603
+        },
+        "extraversion": {
+          "raw_runs": [
+            2.75,
+            2.75,
+            3.0,
+            3.0,
+            2.75
+          ],
+          "mean_raw_bfi": 2.85,
+          "delta_mean_from_C_matrix": -0.1,
+          "implied_base_bfi": 2.95,
+          "std": 0.1369,
+          "ci95_half_width": 0.12
+        },
+        "agreeableness": {
+          "raw_runs": [
+            4.0,
+            4.0,
+            4.222,
+            4.111,
+            4.111
+          ],
+          "mean_raw_bfi": 4.0888,
+          "delta_mean_from_C_matrix": -0.1776,
+          "implied_base_bfi": 4.2664,
+          "std": 0.0929,
+          "ci95_half_width": 0.0814
+        },
+        "neuroticism": {
+          "raw_runs": [
+            1.875,
+            2.25,
+            2.5,
+            2.125,
+            2.375
+          ],
+          "mean_raw_bfi": 2.225,
+          "delta_mean_from_C_matrix": 0.325,
+          "implied_base_bfi": 1.9,
+          "std": 0.2404,
+          "ci95_half_width": 0.2108
+        }
+      }
+    },
+    "EXT": {
+      "n_runs": 5,
+      "per_bfi_dim": {
+        "openness": {
+          "raw_runs": [
+            5.0,
+            5.0,
+            4.9,
+            4.7,
+            4.9
+          ],
+          "mean_raw_bfi": 4.9,
+          "delta_mean_from_C_matrix": 0.22,
+          "implied_base_bfi": 4.68,
+          "std": 0.1225,
+          "ci95_half_width": 0.1074
+        },
+        "conscientiousness": {
+          "raw_runs": [
+            3.778,
+            3.889,
+            4.0,
+            3.889,
+            3.778
+          ],
+          "mean_raw_bfi": 3.8668,
+          "delta_mean_from_C_matrix": -0.3774,
+          "implied_base_bfi": 4.2442,
+          "std": 0.0929,
+          "ci95_half_width": 0.0814
+        },
+        "extraversion": {
+          "raw_runs": [
+            4.125,
+            4.25,
+            4.562,
+            4.375,
+            4.375
+          ],
+          "mean_raw_bfi": 4.3374,
+          "delta_mean_from_C_matrix": 1.65,
+          "implied_base_bfi": 2.6874,
+          "std": 0.1628,
+          "ci95_half_width": 0.1427
+        },
+        "agreeableness": {
+          "raw_runs": [
+            4.0,
+            4.722,
+            4.667,
+            4.222,
+            4.444
+          ],
+          "mean_raw_bfi": 4.411,
+          "delta_mean_from_C_matrix": -0.0222,
+          "implied_base_bfi": 4.4332,
+          "std": 0.3033,
+          "ci95_half_width": 0.2659
+        },
+        "neuroticism": {
+          "raw_runs": [
+            1.625,
+            1.625,
+            1.875,
+            2.125,
+            2.438
+          ],
+          "mean_raw_bfi": 1.9376,
+          "delta_mean_from_C_matrix": -0.225,
+          "implied_base_bfi": 2.1626,
+          "std": 0.3482,
+          "ci95_half_width": 0.3052
+        }
+      }
+    },
+    "AGR": {
+      "n_runs": 5,
+      "per_bfi_dim": {
+        "openness": {
+          "raw_runs": [
+            4.3,
+            4.6,
+            4.3,
+            4.3,
+            4.3
+          ],
+          "mean_raw_bfi": 4.36,
+          "delta_mean_from_C_matrix": -0.24,
+          "implied_base_bfi": 4.6,
+          "std": 0.1342,
+          "ci95_half_width": 0.1176
+        },
+        "conscientiousness": {
+          "raw_runs": [
+            4.222,
+            3.944,
+            4.222,
+            4.111,
+            4.333
+          ],
+          "mean_raw_bfi": 4.1664,
+          "delta_mean_from_C_matrix": -0.1664,
+          "implied_base_bfi": 4.3328,
+          "std": 0.147,
+          "ci95_half_width": 0.1289
+        },
+        "extraversion": {
+          "raw_runs": [
+            3.375,
+            2.625,
+            3.062,
+            3.125,
+            3.375
+          ],
+          "mean_raw_bfi": 3.1124,
+          "delta_mean_from_C_matrix": -0.0624,
+          "implied_base_bfi": 3.1748,
+          "std": 0.3075,
+          "ci95_half_width": 0.2695
+        },
+        "agreeableness": {
+          "raw_runs": [
+            4.444,
+            4.222,
+            4.389,
+            4.444,
+            4.444
+          ],
+          "mean_raw_bfi": 4.3886,
+          "delta_mean_from_C_matrix": 0.1114,
+          "implied_base_bfi": 4.2772,
+          "std": 0.0961,
+          "ci95_half_width": 0.0843
+        },
+        "neuroticism": {
+          "raw_runs": [
+            2.0,
+            2.375,
+            2.375,
+            2.5,
+            1.875
+          ],
+          "mean_raw_bfi": 2.225,
+          "delta_mean_from_C_matrix": 0.025,
+          "implied_base_bfi": 2.2,
+          "std": 0.271,
+          "ci95_half_width": 0.2375
+        }
+      }
+    },
+    "NEU": {
+      "n_runs": 5,
+      "per_bfi_dim": {
+        "openness": {
+          "raw_runs": [
+            2.9,
+            3.5,
+            3.6,
+            3.3,
+            3.1
+          ],
+          "mean_raw_bfi": 3.28,
+          "delta_mean_from_C_matrix": -0.82,
+          "implied_base_bfi": 4.1,
+          "std": 0.2864,
+          "ci95_half_width": 0.251
+        },
+        "conscientiousness": {
+          "raw_runs": [
+            2.444,
+            2.611,
+            2.444,
+            2.556,
+            2.444
+          ],
+          "mean_raw_bfi": 2.4998,
+          "delta_mean_from_C_matrix": -1.8222,
+          "implied_base_bfi": 4.322,
+          "std": 0.0788,
+          "ci95_half_width": 0.0691
+        },
+        "extraversion": {
+          "raw_runs": [
+            2.25,
+            1.875,
+            2.0,
+            2.25,
+            2.0
+          ],
+          "mean_raw_bfi": 2.075,
+          "delta_mean_from_C_matrix": -0.7,
+          "implied_base_bfi": 2.775,
+          "std": 0.1677,
+          "ci95_half_width": 0.147
+        },
+        "agreeableness": {
+          "raw_runs": [
+            2.222,
+            2.944,
+            2.778,
+            2.333,
+            2.444
+          ],
+          "mean_raw_bfi": 2.5442,
+          "delta_mean_from_C_matrix": -1.1888,
+          "implied_base_bfi": 3.733,
+          "std": 0.3054,
+          "ci95_half_width": 0.2677
+        },
+        "neuroticism": {
+          "raw_runs": [
+            4.125,
+            4.0,
+            4.375,
+            4.125,
+            4.375
+          ],
+          "mean_raw_bfi": 4.2,
+          "delta_mean_from_C_matrix": 2.125,
+          "implied_base_bfi": 2.075,
+          "std": 0.1677,
+          "ci95_half_width": 0.147
+        }
+      }
+    }
+  }
+}
